@@ -1,0 +1,53 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: white;
+    color: white;
+    font-family: "Cosi Azure" !important;
+}
+
+img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.slider {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    text-transform: uppercase !important;
+}
+
+@media screen and (min-width: 53em) {
+    .slider {
+        height: 100vh;
+    }
+}
+
+.rgbKineticSlider {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+canvas {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+}
+
+
+
+@media screen and (max-width: 53em) {
+    nav a {
+        top: auto;
+        bottom: 3rem;
+    }
+}
